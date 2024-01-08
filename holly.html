@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="java.js">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous">
+  </script>
+
+ 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous">
+  </script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+
+    <div class="container-fluid">
+      <a class=" navbar-brand margin-right-3 font-weight-bold " style="font-family: 'Dancing Script',cursive ; color: #dd4b39; font-size: xx-large;" href="#">
+        <img src="img/logo.jpg" alt="" width="50" height="50" class=" d-inline-block align-text-buttom margin-right-5">
+        ShowTime
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse align-text-center" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-3">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="holly.html">Hollywood</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bolly.html">Bollywood</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="series.html">Web Series</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <li class="nav-item dropdown ">
+              <a class="nav-link  dropdown-toggle" href="genre.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Genre
+              </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                
+               
+               <li>
+                <a href="genre.html#comedy">COMEDY</a>
+               </li> 
+               <li>
+                <a href="genre.html#horror">HORROR</a>
+               </li> 
+               <li>
+                <a href="genre.html#action">ACTION</a>
+               </li> 
+               
+              
+              </ul>
+            
+           
+             
+              
+           
+        
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+
+        </ul>
+        <span class="float-end ">
+          <button type="button" class="btn btn-large  btn-outline-danger "
+              href="login.html">Logout</button>
+          </a></span>
+      </div>
+    </div>
+  </nav>
+      <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/h/s1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="img/h/s2.webp" alt="Chicago" class="d-block" style="width:100%">  
+          </div>
+          <div class="carousel-item">
+            <img src="img/h/s3.jpg" alt="New York" class="d-block" style="width:100%">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="img/h/s4.jpg" alt="Chicago" class="d-block" style="width:100%">  
+          </div>
+          <div class="carousel-item">
+            <img src="img/h/s5.jpg" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+        </div>
+    
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+        
+
+      <center><h1 class=" heading d-script" >TRENDING MOVIES</h1>
+      </center>
+      <hr class="hr">
+
+     <!-- cards -->
+  <!-- Carousel wrapper -->
+  <div id="carouselMultiItemExample2" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+    <!-- Controls -->
+
+    <div class="d-flex justify-content-center mx-4 ">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMultiItemExample2"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon  btn-primary"></span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselMultiItemExample2"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-primary"></span>
+      </button>
+
+    </div>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="https://i.ebayimg.com/images/g/OpgAAOSw2CRjeLyh/s-l1200.webp" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+          <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/1.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/2.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+      <!-- Single item -->
+      <div class="carousel-item ">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/3.webp" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/4.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/5.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/9.webp" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Single item -->
+      <div class="carousel-item ">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/6.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/7.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/1.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/11.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Inner -->
+  </div>
+  <center><h1 class=" heading d-script" > COMING SOON</h1>
+  </center>
+  <hr class="hr">
+
+
+   <!-- cards -->
+  <!-- Carousel wrapper -->
+  <div id="carouselMultiItemExample3" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+    <!-- Controls -->
+
+    <div class="d-flex justify-content-center mx-4 ">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMultiItemExample3"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon  btn-primary"></span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselMultiItemExample3"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-primary"></span>
+      </button>
+
+    </div>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/11.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/12.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+          <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/13.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/15.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+      <!-- Single item -->
+      <div class="carousel-item ">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/13.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/3.webp" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/6.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/9.webp" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Single item -->
+      <div class="carousel-item ">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/12.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/1.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/2.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/12.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Inner -->
+  </div>
+  <center><h1 class=" heading d-script" >RATED MOVIES</h1>
+  </center>
+  <hr class="hr">
+
+   <!-- cards -->
+  <!-- Carousel wrapper -->
+  <div id="carouselMultiItemExample3" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+    <!-- Controls -->
+
+    <div class="d-flex justify-content-center mx-4 ">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMultiItemExample3"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon  btn-primary"></span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselMultiItemExample3"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-primary"></span>
+      </button>
+
+    </div>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/1917.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/avenger.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+          <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/A_Quiet_Place.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/bolt.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+      <!-- Single item -->
+      <div class="carousel-item ">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/casino-royale.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/shang-chi.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/endgame.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/spider-men.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Single item -->
+      <div class="carousel-item ">
+        <div class="container">
+          <div class="row ">
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/matrix.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/eternals.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+              <div class="card-container">
+                <div class="card shadow bg-gradient rounded bg-dark">
+                  <img src="img/h/stoy.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                  <div class="centered-btn">
+                    <a href="#" class="btn btn-danger">WATCH NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="height: 600px; width: 300px;" class="col-sm-4 d-none d-lg-block">
+            <div class="card-container">
+              <div class="card shadow bg-gradient rounded bg-dark">
+                <img src="img/h/bridgerton.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                <div class="centered-btn">
+                  <a href="#" class="btn btn-danger">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Inner -->
+
+    
+  </div>
+    <!-- footer -->
+
+    <footer class="text-center text-lg-start text-white card shadow bg-gradient" style="background-color: #000000e9; ">
+      <div style="border: 1px grey;" class="container p-4 pb-0">
+        <section class="">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <img style="height: 80px;width: 100px;" src="img/logo.jpg" alt="">
+              <h4  style="color: rgb(240, 8, 8)  ; font-size: 60px; font-weight: 500px;" class=" mb-4  d-script">
+                ShowTime
+              </h4>
+              <p class="d-script " style="font-size: large; color: rgb(246, 239, 239);">
+                Explore the latest blockbusters, timeless classics, and hidden gems. From thrilling action to heartwarming
+                dramas, we've got something for every movie buff. Discover reviews, trailers, showtimes, and exclusive
+                behind-the-scenes content. Get ready to embark on an unforgettable cinematic journey
+              </p>
+            </div>
+  
+  
+  
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class=" nav-item mb-4 font-weight-bold">ENTERTAINMENT</h6>
+              <p>
+                <a class="text-white" href="holly.html">Hollywood</a>
+              </p>
+              <p>
+                <a class="text-white" href="bolly.html">Bollywood</a>
+              </p>
+              <p>
+                <a class="text-white" href="series.html">Web Series</a>
+              </p>
+              <p>
+                <a class="text-white" href="tv.html">Shows</a>
+              </p>
+            </div>
+  
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+  
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class=" nav-item mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-envelope mr-3"></i> ShowTime@gmail.com</p>
+              <p><i class="	fas fa-dove mr-3"></i> ShowTime@twitter.com</p>
+              <p><i class="	fab fa-facebook-f mr-3"></i> ShowTime.facebook.com</p>
+  
+  
+            </div>
+  
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class=" nav-item mb-4 font-weight-bold">Follow us</h6>
+  
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+                href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+  
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee"
+                href="https://www.twitter.com/" role="button"><i class="fab fa-twitter"></i></a>
+  
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="https://www.google.com/"
+                role="button"><i class="fab fa-google"></i></a>
+  
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+                href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+  
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca"
+                href="https://www.linkedin.com/" role="button"><i class="fab fa-linkedin-in"></i></a>
+  
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://www.github.com/"
+                role="button"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </section>
+      </div>
+  
+      <div class="text-center p-3" style="background-color: rgba(4, 4, 4, 0.858)">
+        <span class=" d-script fw-bold" style="color: rgb(246, 7, 7);" href="index.html">ShowTime</span>
+      </div>
+    </footer>
+</body>
+</html>
